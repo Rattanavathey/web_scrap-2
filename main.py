@@ -9,3 +9,9 @@ dict_provinces = {'Provinces':provinces, 'Population': populations}
 df_provinces.to_csv('utils/provinces.csv', index=False)
 
 # print(df_provinces)
+
+# print(provinces[-25])
+
+# for province in provinces:
+#     if province == "Phnom Penh":
+#        print("Found:", provinces)
