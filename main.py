@@ -6,3 +6,6 @@ populations = [898484,1132017,1062914,604895,924175,807254,682987,1352198,48772,
 ]
 
 dict_provinces = {'Provinces':provinces, 'Population': populations} 
+df_provinces.to_csv('utils/provinces.csv', index=False)
+
+# print(df_provinces)
